@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cow": "node cow.js",
-    "imagemin": "node imagemin-pngquant.js"
+    "imagemin": "node imagemin-pngquant.js",
+    "gulp": "node gulpfile.js"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,9 @@
     "imagemin-pngquant": "^9.0.1"
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-imagemin": "^7.1.0",
     "imagemin": "^7.0.1"
   }
 }
