@@ -1,0 +1,21 @@
+{
+  "name": "exercice-npm-bis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "imagemin-pngquant.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cow": "node cow.js",
+    "imagemin": "node imagemin-pngquant.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cowsay": "^1.4.0",
+    "imagemin-pngquant": "^9.0.1"
+  },
+  "devDependencies": {
+    "imagemin": "^7.0.1"
+  }
+}
